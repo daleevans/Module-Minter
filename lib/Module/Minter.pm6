@@ -104,7 +104,8 @@ module Module::Minter
             "name" : "$module_name",
             "version" : "0.01",
             "description" : "The great new $module_name",
-            "author" : "$author",
+            "authors" : ["$author"],
+            "perl": "6.c",
             "source-url" : "",
             "depends" : [ ],
             "provides" : \{
